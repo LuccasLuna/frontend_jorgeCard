@@ -1,0 +1,17 @@
+.decks-container {
+  width: calc(100% - 150px);
+  height: 100vh;
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../assets/img/ondas-verde.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.decks {
+  display: grid;
+  grid-template-columns: repeat( maxmin(280px, 1fr));
+}
