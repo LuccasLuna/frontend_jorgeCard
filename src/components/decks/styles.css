@@ -1,17 +1,39 @@
 .decks-container {
-  width: calc(100% - 150px);
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  /*  */
   background-color: #F0F0F0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url('../../assets/img/ondas-verde.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
 }
 
+.decks-subcontainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 .decks {
+  width: 70%;
   display: grid;
-  grid-template-columns: repeat( maxmin(280px, 1fr));
+  justify-content: center;
+  grid-template-columns: repeat( auto-fit, 200px); 
+  gap: 30px;
+}
+
+.deck {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: #B9B9B9;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 200px;
+  border-radius: 20px;
 }
