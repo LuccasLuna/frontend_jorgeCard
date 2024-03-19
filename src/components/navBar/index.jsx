@@ -8,16 +8,28 @@ export class Navbar extends Component {
     return(
       <nav className='navegation'>
         <div className='user'>
-          <img className='avatar' 
-          src="https://images.unsplash.com/photo-1465153690352-10c1b29577f8?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
-          alt="avatar" 
-          />
-          <p>Nome do usuario</p>
+          <div className='avatar'>
+            <div className='avatar-img'>
+            </div> 
+          </div>
+          <p>Jorge</p>
         </div>
-        <ul>
-          <li>Decks</li>
-          <li>Stats</li>
-          <li>Sair</li>
+        <ul className='nav-list'>
+          <li className='item-list'>
+            <a href="/"><img src={require("../../assets/img/card-cinza.png")} alt="decks" width={45} height={45}/></a>
+          </li>
+          <li className='item-list'>
+            <a href="/"><img src={require("../../assets/img/edit-cinza.png")} alt="decks" width={40} height={40}/></a>
+          </li>
+          <li className='item-list'>
+            <a href="/"><img src={require("../../assets/img/stats-cinza.png")} alt="decks" width={40} height={40}/></a>
+          </li>
+          <li className='item-list'>
+            <a href="/"><img src={require("../../assets/img/config-cinza.png")} alt="decks" width={40} height={40}/></a>
+          </li>
+          <li className='item-list'>
+            <a href="/"><img src={require("../../assets/img/out-cinza.png")} alt="decks" width={40} height={40}/></a>
+          </li>
         </ul>
       </nav>
     );

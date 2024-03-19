@@ -31,9 +31,9 @@ export class Decks extends Component {
                   <p>{deck.name}</p>
               </div>
             ))}
-              <div className='deck'>
-                  <a href="/"className='deck-plus'><FaPlus size={60} color='#15AA73' /></a>
-              </div>
+            <a href="/"className='deck-plus deck'>
+              <FaPlus size={60} color='#15AA73' />
+            </a>
           </div>
         </div>
       </div> 

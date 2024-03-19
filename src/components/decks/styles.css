@@ -1,8 +1,7 @@
 .decks-container {
   width: 100%;
   min-height: 100vh;
-  /*  */
-  background-color: #F0F0F0;
+  background-color: #F0F0F0; 
   background-image: url('../../assets/img/ondas-verde.svg');
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -36,4 +35,9 @@
   font-weight: 600;
   height: 200px;
   border-radius: 20px;
+  transition: transform .2s ease-in-out;
+}
+
+.deck:hover {
+  transform: scale(1.1);
 }
