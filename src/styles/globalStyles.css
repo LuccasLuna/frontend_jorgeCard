@@ -1,0 +1,9 @@
+.main-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F0F0F0; 
+  /* background-image: url('../../assets/img/ondas-verde.svg'); */
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+}

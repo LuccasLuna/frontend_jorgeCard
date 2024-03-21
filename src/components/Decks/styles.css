@@ -1,0 +1,34 @@
+
+.decks-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.decks {
+  width: 97%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat( auto-fit, 200px); 
+  gap: 30px;
+}
+
+.deck {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: #B9B9B9;
+  text-transform: uppercase;
+  font-weight: 600;
+  height: 200px;
+  border-radius: 20px;
+  transition: transform .2s ease-in-out;
+}
+
+.deck:hover {
+  transform: scale(1.1);
+}
