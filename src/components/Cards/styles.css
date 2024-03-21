@@ -5,7 +5,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  animation: slideIn 1s ease-in-out forwards;
 }
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1200px) scale(.2);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
+}
+
 
 .cards {
   padding-bottom: 100px;
