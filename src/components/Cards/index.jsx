@@ -9,9 +9,9 @@ export class Cards extends Component{
   render() {
     const { decks, deckId } = this.props;
 
-   const questions = decks.map((deck) => deck.questions);
-
-   const questionsValues = questions[2];
+    const allQuestions = decks.map((deck) => deck.questions);
+    const indexDeck = deckId -1;
+    const deckQuestions = allQuestions[indexDeck];
 
 
     return(
@@ -21,7 +21,8 @@ export class Cards extends Component{
         <div className="container-cards">
           <div className='cards'>
             <div className='card' style={{backgroundColor: '#fff'}}>
-              <p>{questionsValues[2]}</p>
+              
+              <p>{deckQuestions[2]}</p>
             </div>
             {/* essa div de resposta deveria existir? achuquenaum */}
             <div className='card' style={{backgroundColor: '#15AA73', display: 'none'} }>ESTE CARD SÓ SERA CHAMADO QUANDO APERTAR O BOTAO FLIP</div> 

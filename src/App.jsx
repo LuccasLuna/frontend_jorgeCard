@@ -40,8 +40,9 @@ export class App extends Component {
     return(
       <div className="App">
         <Navbar />
+        {console.log(deckId)}
         {/* deckId é  nulo? se sim, renderiza decks. se não, renderiza cards */}
-        {!deckId ? <Decks decks={decks} handleClick={this.handleClick}/> : <Cards decks={decks}/>}
+        {!deckId ? <Decks decks={decks} handleClick={this.handleClick}/> : <Cards decks={decks} deckId={deckId}/>}
       </div>
     );
   }
