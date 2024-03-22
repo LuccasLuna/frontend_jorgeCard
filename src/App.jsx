@@ -12,44 +12,20 @@ export class App extends Component {
       {
         id: 1,
         name: 'sei la mermao',
-        questions: {
-          1: 'qual o nome do meu cachorro?',
-          2: 'qual o mes do ano que tem apenas 28 dias?',
-          3: 'me da dez real ai?'
-        },
-        answers: {
-          1: 'eu não tenho cachorro',
-          2: 'sei la mermao',
-          3: 'só se vc me emprestar 20 antes'
-        }
+        questions: ['1','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
+        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
       },
       {
         id: 2,
         name: 'tchubira birom',
-        questions: {
-          1: 'qual o nome do meu cachorro?',
-          2: 'qual o mes do ano que tem apenas 28 dias?',
-          3: 'me da dez real ai?'
-        },
-        answers: {
-          1: 'eu não tenho cachorro',
-          2: 'sei la mermao',
-          3: 'só se vc me emprestar 20 antes'
-        }
+        questions: ['2','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
+        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
       },
       {
         id: 3,
         name: 'hã ?',
-        questions: {
-          1: 'qual o nome do meu cachorro?',
-          2: 'qual o mes do ano que tem apenas 28 dias?',
-          3: 'me da dez real ai?'
-        },
-        answers: {
-          1: 'eu não tenho cachorro',
-          2: 'sei la mermao',
-          3: 'só se vc me emprestar 20 antes'
-        }
+        questions: ['3','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
+        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
       },
     ],
     deckId: null,
