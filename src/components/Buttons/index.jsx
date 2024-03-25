@@ -15,8 +15,8 @@ export class Buttons extends Component {
     render() {
       return (
         <div className="container-buttons">
-          <FlipButton />
           <HardButton />
+          <FlipButton />
           <EasyButton />
         </div>
       );

@@ -11,22 +11,98 @@ export class App extends Component {
     decks: [
       {
         id: 1,
-        name: 'sei la mermao',
-        questions: ['1','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
-        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
+        name: 'história',
+        cards: [
+          {
+            id: 1,
+            question: 'De onde é a invenção do chuveiro elétrico?',
+            answer: 'Brasil'
+          },
+          {
+            id: 2,
+            question: 'Qual a nacionalidade de Che Guevara?',
+            answer: 'Argentina'
+          },
+          {
+            id: 3,
+            question: 'Em que período da pré-história o fogo foi descoberto?',
+            answer: 'Paleolítico'
+          },
+          {
+            id: 4,
+            question: 'Qual o nome do presidente do Brasil que ficou conhecido como Jango?',
+            answer: 'João Goulart'
+          },
+          {
+            id: 5,
+            question: 'wqedqwednmqd',
+            answer: 'que?'
+          },
+        ]   
       },
       {
         id: 2,
-        name: 'tchubira birom',
-        questions: ['2','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
-        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
+        name: 'matemática',
+        cards: [
+          {
+            id: 1,
+            question: '1+1 = ?',
+            answer: '2'
+          },
+          {
+            id: 2,
+            question: '2+2 = ?',
+            answer: '4'
+          },
+          {
+            id: 3,
+            question: '3+3 = ?',
+            answer: '6'
+          },
+          {
+            id: 4,
+            question: '4+4 = ?',
+            answer: '8'
+          },
+          {
+            id: 5,
+            question: '5+5 = ?',
+            answer: '10'
+          },
+        ]   
       },
       {
-        id: 3,
-        name: 'hã ?',
-        questions: ['3','qual o nome do meu cachorro?','qual o mes do ano que tem apenas 28 dias?','me da dez real ai?'],
-        answers: ['eu não tenho cachorro','sei la mermao','só se vc me emprestar 20 antes']
+        id: 2,
+        name: 'conhecimentos gerais',
+        cards: [
+          {
+            id: 1,
+            question: 'Qual destes países é transcontinental?',
+            answer: 'Rússia'
+          },
+          {
+            id: 2,
+            question: 'Quais os planetas do sistema solar?',
+            answer: 'Terra, Vênus, Saturno, Urano, Júpiter, Marte, Netuno, Mercúrio'
+          },
+          {
+            id: 3,
+            question: 'Qual o maior animal terrestre?',
+            answer: 'Sua mãe'
+          },
+          {
+            id: 4,
+            question: 'Qual o livro mais vendido no mundo a seguir à Bíblia?',
+            answer: 'Dom quixote'
+          },
+          {
+            id: 5,
+            question: 'Qual o número mínimo de jogadores em cada time numa partida de futebol?',
+            answer: '7'
+          },
+        ]   
       },
+
     ],
     deckId: null,
   }

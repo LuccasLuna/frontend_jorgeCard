@@ -2,7 +2,7 @@ import { Component } from 'react';
 import { FaPlus } from 'react-icons/fa';
 import './styles.css';
 import '../../styles/globalStyles.css';
-import background from '../../assets/img/ondas-verde.svg';
+import background from '../../assets/img/ondas-pato.svg';
 
 export class Decks extends Component {
     state = {

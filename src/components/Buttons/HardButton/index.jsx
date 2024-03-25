@@ -11,7 +11,7 @@ export class HardButton extends Component {
     }
     render() {
       return (    
-        <button onClick={this.handleChange}>Virar</button>
+        <button onClick={this.handleChange}>Dificil</button>
       );
     }
 }
