@@ -72,13 +72,13 @@ export class App extends Component {
         ]   
       },
       {
-        id: 2,
+        id: 3,
         name: 'conhecimentos gerais',
         cards: [
           {
             id: 1,
-            question: 'Qual destes países é transcontinental?',
-            answer: 'Rússia'
+            question: 'Quanto tempo a luz do Sol demora para chegar à Terra?',
+            answer: '8 minutos'
           },
           {
             id: 2,

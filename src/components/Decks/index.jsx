@@ -5,9 +5,9 @@ import '../../styles/globalStyles.css';
 import background from '../../assets/img/ondas-pato.svg';
 
 export class Decks extends Component {
-    state = {
-      deck: []
-    }
+    // state = {
+    //   deck: []
+    // }
 
   
   render() {

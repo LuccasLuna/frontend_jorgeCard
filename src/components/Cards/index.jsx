@@ -14,11 +14,11 @@ export class Cards extends Component{
     // const deckQuestions = allQuestions[indexDeck];
     const deck  = decks[deckId -1]
 
-    const card = deck.cards[2];
+    const card = deck.cards[0];
     return(
       
-      <div className='main-container' style={{backgroundImage: `url(${background})`}}> 
-        {console.log(card.id)}
+      <div className='main-container' style={{backgroundImage: `url(${background})`}} > 
+        {console.log(card, deck.name)}
         <div className="container-cards">
           <div className='cards'>
             <div className='card' style={{backgroundColor: '#fff'}}>
