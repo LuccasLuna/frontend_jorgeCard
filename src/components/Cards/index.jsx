@@ -5,16 +5,14 @@ import background from '../../assets/img/ondas-verde2.svg';
 import { Buttons } from '../Buttons'
 
 export class Cards extends Component{
-  
+
   render() {
     const { decks, deckId } = this.props;
-
-    // const deck = decks.map((deck) => deck);
-    // const indexDeck = deckId -1;
-    // const deckQuestions = allQuestions[indexDeck];
     const deck  = decks[deckId -1]
 
     const card = deck.cards[0];
+
+    
     return(
       
       <div className='main-container' style={{backgroundImage: `url(${background})`}} > 

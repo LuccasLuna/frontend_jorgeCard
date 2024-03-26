@@ -1,0 +1,13 @@
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+}
+
+.container-buttons button {
+  color: white;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 9px;
+  cursor: pointer;
+}

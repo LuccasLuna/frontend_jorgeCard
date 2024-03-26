@@ -12,12 +12,15 @@ export class Decks extends Component {
   
   render() {
     const { decks, handleClick } = this.props;
+
+    const deckCards = [...decks];
     
     return(
       <div className='main-container' style={{backgroundImage: `url(${background})`}}>
+        {/* {console.log(deckCards)} */}
         <div className='decks-container'>
           <div className='decks'>
-            {decks.map(deck => (
+            {deckCards.map(deck => (
               <a href="/" className='deck' key={deck.id} onClick={handleClick} id={deck.id}> 
                 {deck.name}
               </a>
